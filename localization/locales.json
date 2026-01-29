@@ -1,0 +1,40 @@
+{
+  "en": {
+    "auth": {
+      "title": "Password Manager",
+      "placeholder": "insert master password",
+      "login_btn": "Login",
+      "correct": "CORRECT",
+      "wrong": "WRONG PASSWORD"
+    },
+    "dashboard": {
+      "title": "ACCOUNTS",
+      "no_accounts": "no accounts found",
+      "add_btn": "Add Account",
+      "list_all": "List All",
+      "gen_pass": "Password Generator"
+    },
+    "forms": {
+      "new_title": "NEW ACCOUNT",
+      "modify_title": "MODIFY {service}",
+      "account": "Account",
+      "username": "Username",
+      "password": "Password",
+      "generate": "GENERATE",
+      "save": "SAVE"
+    },
+    "details": {
+      "username_label": "Username:",
+      "password_label": "Password:",
+      "modify": "MODIFY",
+      "delete": "DELETE",
+      "delete_confirm": "Delete {service}?"
+    },
+    "list_all": {
+      "title": "ALL ACCOUNTS"
+    },
+    "generator": {
+      "title": "SECURE PASSWORD GENERATOR"
+    }
+  }
+}
