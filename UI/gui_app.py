@@ -32,7 +32,7 @@ class PasswordManagerGUI(ctk.CTk):
         self.active_service = None # For detail/modify tracking
         
         self.title("Secure Vault")
-        self.geometry("480x360")
+        self.geometry("480x480")
         
         self.master_password = ""
         self.vault_data = {}
