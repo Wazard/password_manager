@@ -1,5 +1,5 @@
-from app import PasswordManagerApp
+from UI.gui_app import PasswordManagerGUI
 
 if __name__ == "__main__":
-    app = PasswordManagerApp()
-    app.start()
+    app = PasswordManagerGUI()
+    app.mainloop()
