@@ -36,5 +36,119 @@
     "generator": {
       "title": "SECURE PASSWORD GENERATOR"
     }
+  },
+  "it": {
+    "auth": {
+      "title": "Gestore Password",
+      "placeholder": "inserisci password maestro",
+      "login_btn": "Accedi",
+      "correct": "PASSWORD CORRETTA",
+      "wrong": "PASSWORD ERRATA"
+    },
+    "dashboard": {
+      "title": "ACCOUNT",
+      "no_accounts": "nessun account trovato",
+      "add_btn": "Aggiungi Account",
+      "list_all": "Mostra Tutti",
+      "gen_pass": "Genera Password"
+    },
+    "forms": {
+      "new_title": "NUOVO ACCOUNT",
+      "modify_title": "MODIFICA {service}",
+      "account": "Account",
+      "username": "Nome utente",
+      "password": "Password",
+      "generate": "GENERA",
+      "save": "SALVA"
+    },
+    "details": {
+      "username_label": "Nome utente:",
+      "password_label": "Password:",
+      "modify": "MODIFICA",
+      "delete": "ELIMINA",
+      "delete_confirm": "Eliminare {service}?"
+    },
+    "list_all": {
+      "title": "TUTTI GLI ACCOUNT"
+    },
+    "generator": {
+      "title": "GENERATORE PASSWORD SICURE"
+    }
+  },
+  "fr": {
+    "auth": {
+      "title": "Gestionnaire de Mots de Passe",
+      "placeholder": "insérer le mot de passe maître",
+      "login_btn": "Connexion",
+      "correct": "CORRECT",
+      "wrong": "MAUVAIS MOT DE PASSE"
+    },
+    "dashboard": {
+      "title": "COMPTES",
+      "no_accounts": "aucun compte trouvé",
+      "add_btn": "Ajouter un compte",
+      "list_all": "Tout lister",
+      "gen_pass": "Générateur de mots de passe"
+    },
+    "forms": {
+      "new_title": "NOUVEAU COMPTE",
+      "modify_title": "MODIFIER {service}",
+      "account": "Compte",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "generate": "GÉNÉRER",
+      "save": "ENREGISTRER"
+    },
+    "details": {
+      "username_label": "Nom d'utilisateur :",
+      "password_label": "Mot de passe :",
+      "modify": "MODIFIER",
+      "delete": "SUPPRIMER",
+      "delete_confirm": "Supprimer {service} ?"
+    },
+    "list_all": {
+      "title": "TOUS LES COMPTES"
+    },
+    "generator": {
+      "title": "GÉNÉRATEUR DE MOTS DE PASSE SÉCURISÉS"
+    }
+  },
+  "da": {
+    "auth": {
+      "title": "Password Administrator",
+      "placeholder": "indtast master-adgangskode",
+      "login_btn": "Log ind",
+      "correct": "KORREKT",
+      "wrong": "FORKERT ADGANGSKODE"
+    },
+    "dashboard": {
+      "title": "KONTI",
+      "no_accounts": "ingen konti fundet",
+      "add_btn": "Tilføj konto",
+      "list_all": "Vis alle",
+      "gen_pass": "Password Generator"
+    },
+    "forms": {
+      "new_title": "NY KONTO",
+      "modify_title": "REDIGER {service}",
+      "account": "Konto",
+      "username": "Brugernavn",
+      "password": "Adgangskode",
+      "generate": "GENERER",
+      "save": "GEM"
+    },
+    "details": {
+      "username_label": "Brugernavn:",
+      "password_label": "Adgangskode:",
+      "modify": "REDIGER",
+      "delete": "SLET",
+      "delete_confirm": "Slet {service}?"
+    },
+    "list_all": {
+      "title": "ALLE KONTI"
+    },
+    "generator": {
+      "title": "SIKKER PASSWORD GENERATOR"
+    }
   }
 }

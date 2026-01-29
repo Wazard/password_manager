@@ -22,3 +22,7 @@ class LanguageManager:
             return val
         except (KeyError, TypeError):
             return path # Fallback to the key itself if not found
+    
+    def get_supported_languages(self):
+        """Returns a list of all language codes available in the JSON."""
+        return list(self.translations.keys())

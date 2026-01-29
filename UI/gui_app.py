@@ -81,9 +81,15 @@ class PasswordManagerGUI(ctk.CTk):
         self.current_view = "auth"
         self.clear_screen()
         
-        # Language Selector Top Right
-        lang_menu = ctk.CTkOptionMenu(self.container, values=["en"], 
-                                      command=self.change_language, width=60)
+        # Dynamically fetch languages from the JSON file
+        available_langs = self.lang_manager.get_supported_languages() 
+        
+        lang_menu = ctk.CTkOptionMenu(
+            self.container, 
+            values=available_langs, # No longer hardcoded
+            command=self.change_language, 
+            width=70
+        )
         lang_menu.set(self.current_lang)
         lang_menu.place(relx=0.98, rely=0.02, anchor="ne")
 
